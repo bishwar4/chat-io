@@ -1,0 +1,11 @@
+.Faq {
+  position: fixed;
+  right: 0;
+  bottom: 0px;
+  background-color: #f0f5f5;
+  font-family: "Times New Roman", Times, serif;
+  border: 1px solid blueviolet;
+  border-radius: 25px;
+  padding: 10px;
+  box-shadow: 5px 10px #a1a4a8;
+}
