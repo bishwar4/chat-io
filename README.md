@@ -17,4 +17,7 @@ npm run dev
 
 ## current demo link is
 
-https://chat-io4.herokuapp.com/
+https://chat-io5.herokuapp.com/
+
+##admin link is
+https://chat-io5.herokuapp.com/admin1
