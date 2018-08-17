@@ -57,8 +57,9 @@ class Search extends Component {
               required
             />
           </div>
+          <br />
           <div>
-            <input type="submit" className="btn btn-info btn-block mt-4" />
+            <input type="submit" className="btn btn-info " />
           </div>
         </form>
       </div>

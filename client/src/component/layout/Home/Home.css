@@ -7,7 +7,7 @@
   font-family: Georgia, "Times New Roman", Times, serif;
   position: fixed;
   right: 20px;
-  bottom: 0;
+  bottom: 20px;
   max-width: 350px;
   color: #727677;
 }
@@ -15,10 +15,37 @@ small {
   text-align: center;
   color: #727677;
 }
-img {
-  height: 250px;
+.img {
+  height: 200px;
   width: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+link {
+  color: black;
+}
+.size {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  cursor: pointer;
+}
+.btn {
+  background: #f4f7f8;
+  border: none;
+  color: rgb(24, 24, 19);
+  cursor: pointer;
+  position: fixed;
+  right: 30px;
+}
+.btn:hover {
+  color: red;
+}
+.link {
+  color: #727677;
+}
+.link:hover {
+  color: #00f;
 }

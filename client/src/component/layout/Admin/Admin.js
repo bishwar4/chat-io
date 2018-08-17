@@ -158,7 +158,7 @@ class Admin extends Component {
                       onChange={this.onChange}
                     />
                     <button className="msg_send_btn" type="button">
-                      {/* <i className="fa fa-paper-plane-o" aria-hidden="true" /> */}
+                      <i className="fa fa-paper-plane-o" aria-hidden="true" />
                     </button>
                   </div>
                 </div>

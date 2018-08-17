@@ -8,7 +8,7 @@ import Query from "./component/layout/Queries/Query";
 import Admin from "./component/layout/Admin/Admin";
 import Register from "./component/layout/Admin/auth/Register";
 import Login from "./component/layout/Admin/auth/Login";
-import Logo from "./component/layout/Logo/logo";
+
 import Navbar from "./component/layout/Admin/Navbar";
 import Footer from "./component/layout/Admin/Footer";
 import Landing from "./component/layout/Admin/Landing";
@@ -19,7 +19,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <Route exact path="/" component={Logo} />
+          <Route exact path="/" component={Home} />
           <Route path="/admin" component={Navbar} />
           <Route exact path="/admin" component={Landing} />
           <Route exact path="/admin1" component={Admin} />
@@ -29,11 +29,11 @@ class App extends Component {
             <Route exact path="/admin/register" component={Register} />
             <Route exact path="/admin/login" component={Login} />
 
-            <Route exact path="/home" component={Home} />
-            <Route exact path="/home/query" component={Query} />
-            <Route exact path="/home/chat" component={Chat} />
-            <Route exact path="/home/search" component={Search} />
-            <Route exact path="/home/faq" component={Faq} />
+            {/* <Route exact path="/home" component={Home} /> */}
+            <Route exact path="/query" component={Query} />
+            <Route exact path="/chat" component={Chat} />
+            <Route exact path="/search" component={Search} />
+            <Route exact path="/faq" component={Faq} />
           </div>
           <Route path="/admin" component={Footer} />
         </div>

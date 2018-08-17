@@ -1,7 +1,16 @@
 .Chat {
   position: fixed;
-  bottom: 0;
+  bottom: 50px;
   right: 0;
   max-width: 250px;
   max-height: auto;
+  background: #f4f7f8;
+  color: #727677;
+}
+.messages {
+  height: 300px;
+  overflow-y: auto;
+}
+.icon {
+  border-radius: 50%;
 }

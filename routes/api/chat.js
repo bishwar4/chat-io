@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 var Chat = require("../../models/chat");
-
+const Admin = require("../../models/admin");
 //@route GET api/chat/test
 //@desc Tests post route
 //@access public
@@ -64,13 +64,19 @@ router.post("/recive", (req, res) => {
   });
 });
 
-//@route GET api/faq/find
+//@route GET api/chat/find
 //@desc Tests get route
 //@access public
 router.get("/find", (req, res) => {
   Chat.find().then(user => res.json({ user }));
 });
 
+//@route GET api/chat/admin
+//@desc Tests get route
+//@access public
+router.get("/admin", (req, res) => {
+  Admin.find().then(user => res.json({ user }));
+});
 // res.json({message:'works'});
 
 module.exports = router;

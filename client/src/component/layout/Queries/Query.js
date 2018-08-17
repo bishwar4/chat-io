@@ -77,7 +77,7 @@ class Query extends Component {
             />
             <br />
           </div>
-          <input type="submit" className="btn btn-info btn-block mt-1" />
+          <input type="submit" className="btn btn-info" />
         </form>
       </div>
     );
